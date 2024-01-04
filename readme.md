@@ -16,6 +16,24 @@ it track all the submodule
 
 it should be version controlled, pushed, and pulled.
 
+## Submodule mangement
+
+Pulling in Upstream Changes from the Submodule Remote
+
+```bash
+git fetch
+git merge origin/main
+# Here the changes also need to be commited, if the submodule remote changes
+git commit -m "submodule update"
+```
+
+shortcut of fetching and merging
+
+```bash
+git submodule update --remote
+```
+
+
 ## Cloning git repo with submodule
 
 if we clone git with submodule, the content of the submdule will empty at first
@@ -33,7 +51,6 @@ there is also a shortcut when cloning the repo
 ```bash
 git clone --recurse-submodules https://github.com/repo/git-with-submodule .
 ```
-
 
 ## Notes
 
