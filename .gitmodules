@@ -1,3 +1,6 @@
 [submodule "rust-tokio"]
 	path = rust-tokio
 	url = https://github.com/ariaandika/rust-tokio
+[submodule "git-learn"]
+	path = git-learn
+	url = https://github.com/ariaandika/git-learn
